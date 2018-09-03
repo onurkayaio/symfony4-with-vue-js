@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <div id="app">
+        <div class="text-center">
+            <h3>First App JS EX.</h3>
+            <div class="jumbotron text-center">
+                <first-component></first-component>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('build/js/app.js') }}"></script>
+{% endblock %}
